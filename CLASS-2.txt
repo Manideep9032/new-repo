@@ -1,0 +1,23 @@
+Security Group
+   --->firewall 
+   --->blocks the unauthorized traffic
+   Inbound Traffic:
+       --->Incoming traffic towards our network
+            specified by the user
+   Outbound Traffic:
+       --->Outgoing traffic towards outside networks from our end
+          --->ALL
+
+Key-Pair:
+   --->Provides "Login" for EC2 Instance
+     Windows:
+        --->we need to generate "Password" from Key-Pair file
+     Linux:
+        --->we need to generate "private key" from Key-Pair file
+
+Elastic-IP:
+     Public-IP:
+     Private-IP:
+   ---->we can access the ec2 with help of public ip.
+   ---->if we stop and start the ec2 then "public ip" will be changed
+   ---->Inorder to make Public IP as a constant value we need to Create "Elastic IP" address.
